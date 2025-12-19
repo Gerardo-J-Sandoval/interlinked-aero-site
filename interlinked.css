@@ -1,83 +1,63 @@
-/* Interlinked Aerospace Branding Styles */
-
 :root {
-  --primary-blue: #2a7bdc;       /* Triangle + text color */
-  --accent-gray: #555555;        /* Tagline and secondary text */
+  --primary-blue: #1a2a4f;       /* Dark blue for text and accents */
   --background-white: #ffffff;
-  --font-serif: 'Georgia', serif; /* Replace with your chosen serif if different */
+  --accent-gray: #555555;
+  --font-serif: 'Georgia', serif;
   --font-sans: 'Helvetica Neue', sans-serif;
 }
 
-/* Global Reset */
+/* Global styles */
 body {
-  margin: 0;
-  padding: 0;
   background-color: var(--background-white);
+  color: var(--primary-blue);
   font-family: var(--font-sans);
-  color: var(--accent-gray);
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.8;
 }
 
-/* Header Branding */
-.site-header {
-  display: flex;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: var(--background-white);
-  border-bottom: 1px solid #e0e0e0;
+/* Navigation */
+nav {
+  margin-bottom: 2rem;
 }
-
-.logo {
-  height: 60px;
+nav a {
+  color: var(--primary-blue);
   margin-right: 1rem;
-}
-
-.branding h1 {
-  font-family: var(--font-serif);
-  font-size: 1.8rem;
-  color: var(--primary-blue);
-  margin: 0;
-}
-
-.branding .tagline {
-  font-family: var(--font-serif);
-  font-size: 1rem;
-  color: var(--accent-gray);
-  margin-top: 0.3rem;
-}
-
-/* Section Titles */
-.section-title {
-  font-family: var(--font-serif);
-  font-size: 1.5rem;
-  color: var(--primary-blue);
-  border-bottom: 2px solid var(--primary-blue);
-  padding-bottom: 0.5rem;
-  margin: 2rem 0 1rem;
-}
-
-/* Buttons */
-button, .btn-primary, a.button {
-  background-color: var(--primary-blue);
-  color: white;
-  border: none;
-  padding: 0.6rem 1.2rem;
-  font-family: var(--font-sans);
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: 4px;
   text-decoration: none;
+  font-weight: bold;
 }
 
-button:hover, .btn-primary:hover, a.button:hover {
-  background-color: #1a5bb0;
+/* Headings */
+h1, h2 {
+  font-family: var(--font-serif);
+  color: var(--primary-blue);
+  margin-top: 2.2rem;
+}
+
+/* Paragraphs and lists */
+p {
+  margin-bottom: 1.2rem;
+}
+ul {
+  margin-left: 1.5rem;
+}
+li {
+  margin-bottom: 0.8rem;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
 }
 
 /* Footer */
-.site-footer {
-  background-color: #f8f8f8;
-  padding: 1rem 2rem;
+footer {
+  margin-top: 3rem;
   font-size: 0.9rem;
   color: var(--accent-gray);
   text-align: center;
-  border-top: 1px solid #e0e0e0;
 }
