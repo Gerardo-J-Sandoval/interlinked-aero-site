@@ -1,0 +1,83 @@
+/* Interlinked Aerospace Branding Styles */
+
+:root {
+  --primary-blue: #2a7bdc;       /* Triangle + text color */
+  --accent-gray: #555555;        /* Tagline and secondary text */
+  --background-white: #ffffff;
+  --font-serif: 'Georgia', serif; /* Replace with your chosen serif if different */
+  --font-sans: 'Helvetica Neue', sans-serif;
+}
+
+/* Global Reset */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-white);
+  font-family: var(--font-sans);
+  color: var(--accent-gray);
+}
+
+/* Header Branding */
+.site-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--background-white);
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  height: 60px;
+  margin-right: 1rem;
+}
+
+.branding h1 {
+  font-family: var(--font-serif);
+  font-size: 1.8rem;
+  color: var(--primary-blue);
+  margin: 0;
+}
+
+.branding .tagline {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  color: var(--accent-gray);
+  margin-top: 0.3rem;
+}
+
+/* Section Titles */
+.section-title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  color: var(--primary-blue);
+  border-bottom: 2px solid var(--primary-blue);
+  padding-bottom: 0.5rem;
+  margin: 2rem 0 1rem;
+}
+
+/* Buttons */
+button, .btn-primary, a.button {
+  background-color: var(--primary-blue);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+button:hover, .btn-primary:hover, a.button:hover {
+  background-color: #1a5bb0;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #f8f8f8;
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+  color: var(--accent-gray);
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+}
