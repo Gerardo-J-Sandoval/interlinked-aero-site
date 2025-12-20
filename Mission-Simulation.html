@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mission Simulation | Interlinked Aerospace</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #ffffff;
+      color: #003366;
+      line-height: 1.6;
+    }
 
+    header {
+      background-color: #f0f4ff;
+      border-bottom: 1px solid #d0d8e8;
+      padding: 1rem 2rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #002244;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      margin-right: 1.5rem;
+      text-decoration: none;
+      color: #0055aa;
+      font-weight: 500;
+    }
+
+    nav a.active {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 2rem;
+    }
+
+    h2 {
+      color: #002244;
+      font-size: 1.25rem;
+      margin-top: 2rem;
+    }
+
+    h3 {
+      color: #003366;
+      font-size: 1.1rem;
+      margin-top: 1.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding: 1rem 2rem;
+      font-size: 0.85rem;
+      color: #666;
+      border-top: 1px solid #d0d8e8;
+      background-color: #f9fbff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Interlinked Aerospace</h1>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/mission-simulation.html" class="active">Mission Simulation</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Mission Simulation for Subsystem-Level R&D</h2>
+    <p>
+      ASET Core enables engineers to simulate airplane and weapon subsystem behavior across realistic mission profiles.
+      The focus is on propulsion, fuel, controls, thermal, and electrical systems — not theater-level operations or orbital mechanics.
+    </p>
+
+    <h3>Mission Environment</h3>
+    <p>
+      Engineers can define ground, air, or ocean terrain modes with configurable weather, atmosphere, and altitude bands.
+      The goal is to simulate subsystem performance under realistic environmental conditions without the overhead of global maps.
+    </p>
+    <ul>
+      <li>Standard or custom atmosphere profiles</li>
+      <li>Wind, temperature, and turbulence layers</li>
+      <li>Runway and carrier deck options</li>
+    </ul>
+
+    <h3>Mission Timeline & Events</h3>
+    <p>
+      Missions are structured as time-based sequences with phases like takeoff, climb, cruise, and descent.
+      Engineers can introduce events such as fuel transfers, control mode changes, or subsystem degradations.
+    </p>
+    <ul>
+      <li>Throttle schedules and power demands</li>
+      <li>Subsystem transitions and failure modes</li>
+      <li>Coupled simulation across all systems</li>
+    </ul>
+
+    <h3>Subsystem Coupling</h3>
+    <p>
+      ASET Core maintains a shared state across all subsystems, allowing real-time interaction between propulsion,
+      fuel, controls, and thermal models. This reveals integration risks and performance tradeoffs that siloed tools miss.
+    </p>
+
+    <h3>Mission Outputs</h3>
+    <p>
+      Engineers receive time histories and summary metrics that inform design decisions and trade studies.
+      Outputs focus on performance, margins, and subsystem health — not campaign outcomes.
+    </p>
+    <ul>
+      <li>Range, endurance, and fuel reserves</li>
+      <li>Thrust and power profiles</li>
+      <li>Thermal and electrical loading vs. limits</li>
+      <li>Subsystem health indicators</li>
+    </ul>
+
+    <h3>Deliberate Scope</h3>
+    <p>
+      ASET Core is not a replacement for STK or campaign simulators. It does not include orbital mechanics,
+      global maps, or tactical coordination. Instead, it fills the missing layer between subsystem modeling and
+      mission performance — focused, modular, and built for engineering R&D.
+    </p>
+  </main>
+
+  <footer>
+    Interlinked Aerospace LLC — Based in Texas. © 2025 Interlinked Aerospace LLC.
+  </footer>
+</body>
+</html>
