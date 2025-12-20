@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="interlinked.css">
-  <title>Mission Simulation — ASET Core </title>
+  <title>Mission Simulation — ASET Core</title>
   <link rel="icon" type="image/png" href="favicon-32x32.png">
 </head>
-  
 
 <body>
   <header>
@@ -25,63 +24,71 @@
     <h2>Mission Simulation for Subsystem-Level R&D</h2>
     <p>
       ASET Core enables engineers to simulate airplane and weapon subsystem behavior across realistic mission profiles.
-      The focus is on propulsion, fuel, controls, thermal, mechanical, and electrical systems and not theater-level operations or orbital mechanics.
+      The focus is on propulsion, fuel, controls, thermal, mechanical, and electrical systems. No theater-level operations or orbital mechanics.
     </p>
 
-    <h3>Mission Environment</h3>
-    <p>
-      Engineers can define ground, air, or ocean terrain modes with configurable weather, atmosphere, and altitude bands.
-      The goal is to simulate subsystem performance under realistic environmental conditions without the overhead of global maps.
-    </p>
-    <ul>
-      <li>Standard or custom atmosphere profiles</li>
-      <li>Wind, temperature, and turbulence layers</li>
-      <li>Runway and carrier deck options</li>
-    </ul>
+    <section>
+      <h3>Mission Environment</h3>
+      <p>
+        Define ground, air, or ocean terrain modes with configurable weather, atmosphere, and altitude bands.
+        Simulate subsystem performance under realistic conditions without global map overhead.
+      </p>
+      <ul>
+        <li>Standard or custom atmosphere profiles</li>
+        <li>Wind, temperature, and turbulence layers</li>
+        <li>Runway and carrier deck options</li>
+      </ul>
+    </section>
 
-    <h3>Mission Timeline & Events</h3>
-    <p>
-      Missions are structured as time-based sequences with phases like takeoff, climb, cruise, and descent.
-      Engineers can introduce events such as fuel transfers, control mode changes, or subsystem degradations.
-    </p>
-    <ul>
-      <li>Throttle schedules and power demands</li>
-      <li>Subsystem transitions and failure modes</li>
-      <li>Coupled simulation across all systems</li>
-    </ul>
+    <section>
+      <h3>Mission Timeline & Events</h3>
+      <p>
+        Missions follow time-based sequences like takeoff, climb, cruise, and descent. Engineers can introduce events that stress subsystems or change vehicle configuration.
+      </p>
+      <ul>
+        <li>Throttle schedules and power demands</li>
+        <li>Subsystem transitions and failure modes</li>
+        <li>Coupled simulation across all systems</li>
+      </ul>
+    </section>
 
-    <h3>Subsystem Coupling</h3>
-    <p>
-      ASET Core maintains a shared state across all subsystems, allowing real-time interaction between propulsion,
-      fuel, controls, and thermal models. This reveals integration risks and performance tradeoffs that siloed tools miss.
-    </p>
+    <section>
+      <h3>Subsystem Coupling</h3>
+      <p>
+        ASET Core maintains a shared state across all subsystems, enabling real-time interaction between propulsion, fuel, controls, and thermal models. This reveals integration risks and tradeoffs that siloed tools miss.
+      </p>
+    </section>
 
-    <h3>Mission Outputs</h3>
-    <p>
-      Engineers receive time histories and summary metrics that inform design decisions and trade studies.
-      Outputs focus on performance, margins, and subsystem health — not campaign outcomes.
-    </p>
-    <ul>
-      <li>Range, endurance, and fuel reserves</li>
-      <li>Thrust and power profiles</li>
-      <li>Thermal and electrical loading vs. limits</li>
-      <li>Subsystem health indicators</li>
-    </ul>
+    <section>
+      <h3>Mission Outputs</h3>
+      <p>
+        Engineers receive time histories and summary metrics to support design decisions and trade studies. Outputs emphasize subsystem performance, margins, and health.
+      </p>
+      <ul>
+        <li>Range, endurance, and fuel reserves</li>
+        <li>Thrust and power profiles</li>
+        <li>Thermal and electrical loading vs. limits</li>
+        <li>Subsystem health indicators</li>
+      </ul>
+    </section>
 
-    <h3>Deliberate Scope</h3>
-    <p>
-      ASET Core is not a replacement for STK or campaign simulators. It does not include orbital mechanics,
-      global maps, or tactical coordination. Instead, it fills the missing layer between subsystem modeling and
-      mission performance by staying focused, modular, and built for engineering R&D.
-    </p>
+    <section>
+      <h3>Deliberate Scope</h3>
+      <p>
+        ASET Core is not a replacement for STK or campaign simulators. It excludes orbital mechanics, global maps, and tactical coordination. Instead, it fills the missing layer between subsystem modeling and mission performance. ASET Core is focused, modular, and built for engineering R&D.
+      </p>
+    </section>
 
-<h3>Navigator — Optional Built‑In Assistant</h3>
-<p>Navigator is ASET Core’s optional assistant that helps users move through mission setup, subsystem configuration, and simulation workflows with clarity. It explains errors, surfaces documentation, and highlights mission‑level insights without replacing engineering judgment.</p>
-
+    <section>
+      <h3>Navigator — Optional Built-In Assistant</h3>
+      <p>
+        Navigator is ASET Core’s optional assistant that helps users move through mission setup, subsystem configuration, and simulation workflows with clarity. It explains errors, surfaces documentation, and highlights mission-level insights without replacing engineering judgment.
+      </p>
+    </section>
   </main>
 
   <footer>
-  © 2025 Interlinked Aerospace LLC.
+    © 2025 Interlinked Aerospace LLC.
   </footer>
 </body>
 </html>
