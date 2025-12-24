@@ -1,5 +1,5 @@
 :root {
-  --primary-brown: #7A5A3A;       /* Medium brown background */
+  --primary-brown: #4A3A2E;       /* Dark brown background */
   --text-white: #ffffff;
   --accent-gray: #cccccc;
   --font-serif: 'Georgia', serif;
@@ -61,3 +61,4 @@ footer {
   color: var(--accent-gray);
   text-align: center;
 }
+
