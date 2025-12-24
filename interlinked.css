@@ -1,15 +1,15 @@
 :root {
-  --primary-blue: #3C4096;      /* Blue‑purple brand color */
-  --background-white: #ffffff;
-  --accent-gray: #555555;
+  --primary-brown: #7A5A3A;       /* Medium brown background */
+  --text-white: #ffffff;
+  --accent-gray: #cccccc;
   --font-serif: 'Georgia', serif;
   --font-sans: 'Helvetica Neue', sans-serif;
 }
 
 /* Global styles */
 body {
-  background-color: var(--background-white);
-  color: var(--primary-blue);   /* Now uses #2655B4 */
+  background-color: var(--primary-brown);
+  color: var(--text-white);
   font-family: var(--font-sans);
   padding: 2rem;
   max-width: 800px;
@@ -22,7 +22,7 @@ nav {
   margin-bottom: 2rem;
 }
 nav a {
-  color: var(--primary-blue);
+  color: var(--text-white);
   margin-right: 1rem;
   text-decoration: none;
   font-weight: bold;
@@ -31,7 +31,7 @@ nav a {
 /* Headings */
 h1, h2 {
   font-family: var(--font-serif);
-  color: var(--primary-blue);
+  color: var(--text-white);
   margin-top: 2.2rem;
 }
 
@@ -51,7 +51,7 @@ img {
   max-width: 100%;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  border: 1px solid #ccc;
+  border: 1px solid var(--accent-gray);
 }
 
 /* Footer */
